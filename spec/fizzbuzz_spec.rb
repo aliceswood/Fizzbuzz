@@ -23,7 +23,9 @@ describe 'fizzbuzz' do
 end
 
 describe 'fizzbuzz' do
-  it "returns 'fizzbuzz' when passed 15" do
+  it "returns 'fizzbuzz' when passed multiples of 3 and 5" do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
+    expect(fizzbuzz(30)).to eq 'fizzbuzz'
+    expect(fizzbuzz(45)).to eq 'fizzbuzz'
   end
 end
